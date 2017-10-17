@@ -36,4 +36,3 @@ third step is Rasterization, it's that the three point of the triangle on the sc
 each step start the same time but it goes from first step and end at the third step. 
 
 
-
