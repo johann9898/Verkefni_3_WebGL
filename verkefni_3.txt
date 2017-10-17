@@ -1,0 +1,39 @@
+1.
+WebGL: is an Application Program Interface(API), that controls the GPU. it's is a state based APi,
+you set up exactly how you want the GPU to do something, then send a geometry to render under these condition.
+
+GPU/Graphics Pricessing Unit: It's uses a rendering process called rasterization or scan conversion, 
+which is optimized to use the simplifications.
+
+Rasterization: If the triangle(object) is partially or fully inside the frustum, 
+the three points of the trangle on the screen are then used in a process called Rasterization
+
+Z-Buffer: Distance from the camera. 
+
+Fragment	 by part of triangle, and the process is called scan conversion.
+
+Pixel: It is like a little square in wire screen but its on the computer screen.
+
+GLSL/OpenGL Shading Language: it's an API for desktop computer that dates back to 1992.
+
+View Frustum: it is the field of view of the notional camera, and the view is pyramid-shaped.
+
+Vertex: it is used to specify the vertex coordinates for points, lines, triangles, quads, and polygons
+
+Right-hand coordinate system(RHS): For example when the y-axis goes up and x axis goes east and z axis goes south, 
+and u use right hand or left hand to check if which finger of the left or right fit the Coordinate System,
+if it fit on the right it call Right-Hand Coordinate system.
+
+2. It's important thing in the game because everything u see in the 3d games are made of triangles,
+sometimes u can see it and sometimes not. and you use 3d location to define the triangles such as X, Y and Z. 
+
+
+3. Rendering pipeline is seperate into 3 steps and treat it seperately:
+first step is that application, it decides what triangles to send down the pipeline.
+second step is Camera & Model Transform, it modify by the camera views of the world with any modeling transform is applied.
+for example to modify the location, orientation and the size. 
+third step is Rasterization, it's that the three point of the triangle on the screen are partially or fully inside the frustum. 
+each step start the same time but it goes from first step and end at the third step. 
+
+
+
